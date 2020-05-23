@@ -8,7 +8,7 @@ import SNSLinkList from "../components/sns-links"
 
 const IndexPage = () => (
   <LayoutBare>
-    <SEO title="Sebastian Winkler"/>
+    <SEO/>
     <Row>
       <Col xs={12} lg={6}>
         <h1 style={{
@@ -26,8 +26,8 @@ const IndexPage = () => (
       <Col xs={12} className="text-right" style={{
         paddingRight: `25px`
       }}>
-        <h2><a href="mailto:sebastian@winkler.dev" target="_blank" style={{
-          color: `black`,
+        <h2><a href="mailto:sebastian@winkler.dev" target="_blank" rel="noreferrer" style={{
+          color: `black`
         }}>sebastian@winkler.dev</a></h2>
       </Col>
     </Row>

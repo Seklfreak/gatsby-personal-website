@@ -9,7 +9,6 @@ const SNSLinkList = () => {
           allSnsYaml(sort: {fields: name}) {
               edges {
                   node {
-                      id
                       link
                       name
                   }
@@ -22,7 +21,7 @@ const SNSLinkList = () => {
     <>
       <ListGroup variant={"flush"}>
         {data.allSnsYaml.edges.map(({ node }, index) => (
-          <ListGroup.Item action href={node.link} target="_blank" key={index} style={{
+          <ListGroup.Item action href={node.link} target="_blank" rel="noreferrer" key={index} style={{
             fontSize: `4vmin`
           }}>
             * {node.name}
