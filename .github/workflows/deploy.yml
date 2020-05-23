@@ -16,8 +16,10 @@ jobs:
         node-version: 12
         registry-url: https://registry.npmjs.org/
     - run: npm install
-    - run: git config user.name "github-actions[bot]"
-    - run: git config user.email "github-actions[bot]@users.noreply.github.com"
-    - run: npm run deploy
+    - run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global hub.protocol https
+        npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.github_token }}
