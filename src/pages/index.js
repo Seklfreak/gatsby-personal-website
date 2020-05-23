@@ -4,6 +4,7 @@ import LayoutBare from "../components/layout-bare"
 import SEO from "../components/seo"
 import "./index.css"
 import { Col, ListGroup, Row } from "react-bootstrap"
+import SNSLinkList from "../components/sns-links"
 
 const IndexPage = () => (
   <LayoutBare>
@@ -15,11 +16,7 @@ const IndexPage = () => (
         }}>Sebastian<br/>Winkler</h1>
       </Col>
       <Col xs={12} md={{ span: 3, offset: 3 }}>
-        <ListGroup variant={"flush"}>
-          <ListGroup.Item action href="https://twitter.com/s3kl_" target="_blank">
-            Twitter
-          </ListGroup.Item>
-        </ListGroup>
+        <SNSLinkList/>
       </Col>
     </Row>
   </LayoutBare>
