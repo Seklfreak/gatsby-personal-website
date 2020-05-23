@@ -3,7 +3,7 @@ import React from "react"
 import LayoutBare from "../components/layout-bare"
 import SEO from "../components/seo"
 import "./index.css"
-import { Col, ListGroup, Row } from "react-bootstrap"
+import { Col, Row } from "react-bootstrap"
 import SNSLinkList from "../components/sns-links"
 
 const IndexPage = () => (
