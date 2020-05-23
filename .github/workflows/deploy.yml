@@ -17,3 +17,5 @@ jobs:
         registry-url: https://registry.npmjs.org/
     - run: npm install
     - run: npm run deploy
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
