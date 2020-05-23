@@ -1,3 +1,8 @@
 body {
     background-color: #ff0;
 }
+
+.list-group-item.active {
+    background-color: transparent;
+    color: black;
+}

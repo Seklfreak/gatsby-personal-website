@@ -3,14 +3,25 @@ import React from "react"
 import LayoutBare from "../components/layout-bare"
 import SEO from "../components/seo"
 import "./index.css"
+import { Col, ListGroup, Row } from "react-bootstrap"
 
 const IndexPage = () => (
   <LayoutBare>
     <SEO title="Sebastian Winkler"/>
-    <h1 style={{
-      fontFamily: `"Helvetica Neue", Helvetica, "Liberation Sans", Arial, sans-serif`,
-      fontSize: `15vmin`
-    }}>Sebastian<br/>Winkler</h1>
+    <Row>
+      <Col xs={12} md={6}>
+        <h1 style={{
+          fontSize: `15vmin`
+        }}>Sebastian<br/>Winkler</h1>
+      </Col>
+      <Col xs={12} md={{ span: 3, offset: 3 }}>
+        <ListGroup variant={"flush"}>
+          <ListGroup.Item action href="https://twitter.com/s3kl_" target="_blank">
+            Twitter
+          </ListGroup.Item>
+        </ListGroup>
+      </Col>
+    </Row>
   </LayoutBare>
 )
 
