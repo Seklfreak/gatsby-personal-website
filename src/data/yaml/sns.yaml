@@ -1,12 +1,12 @@
 - name: GitHub
   link: https://github.com/Seklfreak
-- name: Twitter
-  link: https://twitter.com/s3kl_
-- name: GitLab
-  link: https://gitlab.com/seklfreak
+#- name: Twitter
+#  link: https://twitter.com/s3kl_
+#- name: GitLab
+#  link: https://gitlab.com/seklfreak
 - name: Patreon
   link: https://www.patreon.com/sekl
 - name: last.fm
   link: https://www.last.fm/user/s3kl
-- name: LinkedIn
-  link: https://www.linkedin.com/in/sebastian-stefan-winkler/
+#- name: LinkedIn
+#  link: https://www.linkedin.com/in/sebastian-stefan-winkler/
