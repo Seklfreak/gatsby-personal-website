@@ -34,3 +34,8 @@ jobs:
         BRANCH: gh-pages
         FOLDER: public
         CLEAN: true
+    - name: Run Lighthouse
+      uses: foo-software/lighthouse-check-action@master
+      with:
+        apiToken: ${{ secrets.LIGHTHOUSE_API_TOKEN }}
+        urls: "https://winkler.dev/"
