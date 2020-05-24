@@ -37,5 +37,4 @@ jobs:
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@master
       with:
-        apiToken: ${{ secrets.LIGHTHOUSE_API_TOKEN }}
-        urls: "https://winkler.dev/"
+        urls: 'https://winkler.dev/'
