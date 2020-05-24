@@ -18,7 +18,7 @@ const IndexPage = () => (
           <h2>Software developer living in Berlin.</h2>
         </Col>
         <Col xs={12} lg={{ span: 3, offset: 3 }} style={{
-          paddingTop: `50px`
+          paddingTop: `3vmin`
         }}>
           <SNSLinkList/>
         </Col>
@@ -27,7 +27,7 @@ const IndexPage = () => (
     <footer>
       <Row>
         <Col xs={12} className="text-right" style={{
-          paddingRight: `25px`
+          paddingTop: `3vmin`
         }}>
           <h2><a href="mailto:sebastian@winkler.dev" target="_blank" rel="noreferrer" style={{
             color: `black`,
