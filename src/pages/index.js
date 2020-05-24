@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Row>
       <Col xs={12} lg={6}>
         <h1 style={{
-          fontSize: `15vmin`
+          fontSize: `13vmin`
         }}>Sebastian<br/>Winkler</h1>
         <h2>Software developer living in Berlin.</h2>
       </Col>
@@ -27,7 +27,8 @@ const IndexPage = () => (
         paddingRight: `25px`
       }}>
         <h2><a href="mailto:sebastian@winkler.dev" target="_blank" rel="noreferrer" style={{
-          color: `black`
+          color: `black`,
+          fontSize: `6vmin`
         }}>sebastian@winkler.dev</a></h2>
       </Col>
     </Row>

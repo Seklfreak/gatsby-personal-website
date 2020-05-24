@@ -27,6 +27,15 @@ module.exports = {
         pageTransitionDelay: 0,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Source Code Pro\:500`,
+        ],
+        display: 'swap'
+      }
+    }
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
