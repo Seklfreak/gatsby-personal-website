@@ -8,7 +8,7 @@ import "./layout.css"
 const LayoutBare = ({ children }) => {
   return (
     <>
-      <Container fluid className="d-flex flex-column vh-100">
+      <Container fluid className="d-flex flex-column vh-100-fixed">
         {children}
       </Container>
     </>
