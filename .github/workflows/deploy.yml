@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    
     - uses: actions/checkout@v2
       with:
         persist-credentials: false
@@ -23,7 +24,7 @@ jobs:
       env:
         GA_TRACKING_ID: ${{ secrets.GA_TRACKING_ID }}
     - name: Install SSH Client
-      uses: webfactory/ssh-agent@v0.2.0
+      uses: webfactory/ssh-agent@v0.5.4
       with:
         ssh-private-key: ${{ secrets.DEPLOY_KEY }}
     - name: Deploy
