@@ -1,9 +1,3 @@
 body {
     font-family: 'Source Code Pro', monospace;
 }
-
-/* viewport mobile fix https://stackoverflow.com/a/37113430/1443726 */
-.vh-100-fixed {
-    height: 100vh;
-    height: -webkit-fill-available;
-}

@@ -19,7 +19,7 @@ const SNSLinkList = () => {
 
   return (
     <>
-      <ListGroup variant={"flush"}>
+      <ListGroup>
         {data.allSnsYaml.edges.map(({ node }, index) => (
           <ListGroup.Item action href={node.link} target="_blank" rel="noreferrer" key={index} style={{
             fontSize: `1.6em`

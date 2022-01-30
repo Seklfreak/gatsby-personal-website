@@ -2,12 +2,15 @@
     background-color: transparent;
     color: black;
     border: none;
+    text-decoration: underline;
 }
 .list-group-item.active {
     background-color: transparent;
     color: black;
+    text-decoration: underline;
 }
 .list-group-item:hover, .list-group-item:focus {
-    background-color: #ebeb00;
+    background-color: transparent;
     color: black;
+    text-decoration: underline;
 }
