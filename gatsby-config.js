@@ -17,14 +17,15 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-yaml`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID || `UA-noop`,
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        exclude: [],
-        pageTransitionDelay: 0,
+        trackingIds: [process.env.GA_TRACKING_ID],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
+        pluginConfig: {
+          respectDNT: true,
+        },
       },
     },
     {
