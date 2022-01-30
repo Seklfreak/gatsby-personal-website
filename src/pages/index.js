@@ -1,14 +1,14 @@
 import React from "react"
 
 import LayoutBare from "../components/layout-bare"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import "./index.css"
 import {Col, Row} from "react-bootstrap"
 import SNSLinkList from "../components/sns-links"
 
 const IndexPage = () => (
     <LayoutBare>
-        <SEO/>
+        <Seo/>
         <main>
             <Row className="align-items-center pt-5">
                 <Col>
