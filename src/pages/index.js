@@ -15,7 +15,7 @@ const IndexPage = () => (
                     <h1 style={{
                         fontSize: `13vmin`
                     }}>Sebastian<br/>Winkler</h1>
-                    <h2>Software developer living in Berlin.</h2>
+                    <h2>Software developer living in New York.</h2>
                 </Col>
             </Row>
             <Row className="pt-5">
